@@ -1,3 +1,4 @@
+```powershell
 # Set-ExecutionPolicy RemoteSigned to run script, or copy paste the code into powershell directly
 
 if([IntPtr]::Size * 8 -ne 32) {
@@ -62,3 +63,4 @@ if([IntPtr]::Size * 8 -ne 32) {
         Write-Host $memo
     }
 }
+```
